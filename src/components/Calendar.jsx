@@ -42,7 +42,7 @@ export default function Calendar({ age }) {
 
             <div
                 ref={containerRef}
-                className="mwg_effect000 grid grid-flow-row-dense grid-cols-36 grid-rows-3 gap-1"
+                className="mwg_effect000 grid grid-flow-row-dense lg:grid-cols-36 md:grid-cols-12 grid-rows-3 gap-1"
             >
                 {calendarList.map((block, key) => (
                     <div
